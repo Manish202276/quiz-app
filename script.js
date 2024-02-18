@@ -1,18 +1,28 @@
 const quizQuestions = [
     {
-      question: "What is the capital of France?",
-      options: ["Paris", "London", "Berlin", "Rome"],
-      correctAnswer: "Paris"
+      question: "Who is the Father of our Nation?",
+      options: ["mahatma gandhi", "rajendra prasad", "dr B.R Ambedkar", "none of these"],
+      correctAnswer: "mahatma gandhi"
     },
     {
-      question: "Which planet is known as the Red Planet?",
-      options: ["Venus", "Mars", "Jupiter", "Saturn"],
-      correctAnswer: "Mars"
+      question: "Which is the most sensitive organ in our body?",
+      options: ["hair", "skin", "lungs", "none of these"],
+      correctAnswer: "skin"
     },
     {
-      question: "What is the chemical symbol for gold?",
-      options: ["Au", "Ag", "Cu", "Fe"],
-      correctAnswer: "Au"
+      question: "Which is the heavier metal",
+      options: ["gold", "iron", "Copper", "none of these"],
+      correctAnswer: "gold"
+    },
+    {
+      question: "1024 Kilobytes is equal to?",
+      options: ["1GB", "1KB", "1MB", "none of these"],
+      correctAnswer: "1MB"
+    },
+    {
+      question: "Smallest state of India is",
+      options: ["Goa", "Rajasthan", "Bihar", "none of these"],
+      correctAnswer: "Goa"
     }
   ];
   let currentQuestionIndex = 0;
